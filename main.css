@@ -1,10 +1,15 @@
+.container {
+    background-color: white;
+}
+
 body {
     background-color: antiquewhite;
     text-transform: capitalize;
 }
 
+
 footer {
-    background-color: rgb(43, 44, 67);
+    background-color: rgb(247, 247, 249);
     color: aliceblue;
     height: 70px;
 }
@@ -14,14 +19,19 @@ footer>p {
     text-align: center;
 }
 
+
 body {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     font-size: 20px;
 }
 
-.dark-mode {
+.container-md {
     background-color: black;
+}
+
+.dark-mode {
+    background-color: rgb(248, 244, 244);
     color: white;
 }
 
@@ -34,13 +44,9 @@ ul {
 }
 
 #home {
-    color: aliceblue;
-    background: rgb(89, 37, 138);
-    background: linear-gradient(90deg,
-            rgba(89, 37, 138, 1) 0%,
-            rgb(167, 50, 191) 49%,
-            rgba(76, 32, 146, 1) 100%);
-    color: aliceblue;
+    color: black;
+    background: white;
+
     margin-top: 10px;
     padding-top: 55px;
     padding-bottom: 40px;
